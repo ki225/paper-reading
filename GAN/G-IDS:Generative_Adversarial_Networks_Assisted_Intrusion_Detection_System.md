@@ -45,7 +45,7 @@ GAN通過對抗性方法估計生成模型。它由兩個獨立的模型組成�
 價值函數V(G,D)定義如下：
 
 
-$$\min_G \max_D V(G, D) = \mathbb{E}_{x \sim p_{\text{data}}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_{z}(z)}[\log(1 - D(G(z)))]$$
+$$\min_G \max_D V(G, D) = \mathbb{E}_{x \sim p_{\text{data}}(x)}[\log D(x)] + \mathbb{E}_{z \sim p_{z}(z)}[\log(1 - D(G(z)))\]$$
 
 為了達到最佳解，G和D需要不斷地優化自己，以提高達到 Nash equilibrium。
 
