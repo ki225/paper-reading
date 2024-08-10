@@ -1,4 +1,7 @@
-## Papers
+## Introduce
+[Zero Trust: Applications, Challenges, and Opportunities](https://hackmd.io/@okii77/SysAMBE90)這篇文章適合作為入門零信任的開端，文章並沒有艱深的技術內容，而是專注在說明零信任的優勢與趨勢。
+
+## Other Papers
 - [以微服務為基礎的動態情境感知細粒度存取控制框架](https://etheses.lib.ntust.edu.tw/thesis/detail/1cafba3dd757870c6c81af08fc106690/?seq=9)
 - [基於 P4 的零信任網路與 QoS 的應用](https://etheses.lib.ntust.edu.tw/thesis/detail/c146da0fdbfdc79504281ab60d788192/?seq=2)
 - [適用於中小企業之資安零信任框架](https://etheses.lib.ntust.edu.tw/thesis/detail/cad8c547ad720a58fd6c97c22f018bcf/?seq=3)
