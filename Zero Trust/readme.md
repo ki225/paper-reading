@@ -1,5 +1,6 @@
 ## Introduce
-[Zero Trust: Applications, Challenges, and Opportunities](https://hackmd.io/@okii77/SysAMBE90)這篇文章適合作為入門零信任的開端，文章並沒有艱深的技術內容，而是專注在說明零信任的優勢與趨勢。
+- [Zero Trust: Applications, Challenges, and Opportunities](https://hackmd.io/@okii77/SysAMBE90)這篇文章適合作為入門零信任的開端，文章並沒有艱深的技術內容，而是專注在說明零信任的優勢與趨勢。
+- [FedBayes: A Zero-Trust Federated Learning Aggregation to Defend Against Adversarial Attacks](https://hackmd.io/@okii77/rJrEKt9hC) FedBayes 是一種簡單的聚合技術，能夠在仍然從良性客戶端學習的同時，保護全球模型免受對抗性攻擊。
 
 ## Other Papers
 - [以微服務為基礎的動態情境感知細粒度存取控制框架](https://etheses.lib.ntust.edu.tw/thesis/detail/1cafba3dd757870c6c81af08fc106690/?seq=9)
