@@ -12,3 +12,6 @@
 ## 市場
 - [NGINX Kubernetes 应用的零信任安全](https://www.nginx-cn.net/solutions/zero-trust/)
 - [Cisco 突破傳統安全的框架](https://www.cisco.com/c/dam/global/zh_tw/products/security/pdf/zero-trust-going-beyond-the-perimeter.pdf)
+
+## Related Repos
+- [KubeFATE](https://github.com/FederatedAI/KubeFATE): Manage federated learning workload using cloud native technologies.
