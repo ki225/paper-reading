@@ -1,0 +1,1 @@
+- [Scanflow-K8s: Agent-based Framework for Autonomic Management and Supervision of ML Workflows in Kubernetes Clusters](https://ieeexplore.ieee.org/abstract/document/9826110): 能夠在 Kubernetes 上實現端到端 ML 工作流程生命週期的自動管理和在線監督
