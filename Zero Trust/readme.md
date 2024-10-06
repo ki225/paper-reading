@@ -11,6 +11,7 @@
 - [針對聯盟式學習入侵檢測的兩階段防禦中毒攻擊](https://etheses.lib.ntust.edu.tw/thesis/detail/ecc938280b5b0a425671f2b837044370/?seq=7)
 - [基於VPN的中小企業零信任架構研究](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22111NTTI5396024%22.&searchmode=basic)
 - [Building A Zero Trust Architecture Using Kubernetes](https://ieeexplore.ieee.org/abstract/document/9418203)
+- [Lateral Movement Restriction in Advanced DevOps Environments](https://aaltodoc.aalto.fi/server/api/core/bitstreams/18c2d103-77a8-4a85-aa39-d6b624ded74d/content)
 
 ## 市場
 - [NGINX Kubernetes 应用的零信任安全](https://www.nginx-cn.net/solutions/zero-trust/)
