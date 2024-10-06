@@ -12,6 +12,7 @@
 - [基於VPN的中小企業零信任架構研究](https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi/login?o=dnclcdr&s=id=%22111NTTI5396024%22.&searchmode=basic)
 - [Building A Zero Trust Architecture Using Kubernetes](https://ieeexplore.ieee.org/abstract/document/9418203)
 - [Lateral Movement Restriction in Advanced DevOps Environments](https://aaltodoc.aalto.fi/server/api/core/bitstreams/18c2d103-77a8-4a85-aa39-d6b624ded74d/content)
+- [Integrating Zero Trust Architecture in DevOps Pipeline: Enhancing Security in Continuous Delivery Environments](https://www.ijsdcs.com/index.php/TLIoT/article/view/555): 本研究探討了將零信任架構（ZTA）納入DevOps工作流程的可能性，介紹了ZTA的主要概念，分析了這些概念如何應用於DevOps管道，以及如何在CD環境中綜合實施ZTA的詳細框架。
 
 ## 市場
 - [NGINX Kubernetes 应用的零信任安全](https://www.nginx-cn.net/solutions/zero-trust/)
