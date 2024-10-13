@@ -7,5 +7,5 @@
 - [A Mutation-Enabled Proactive Defense Against Service-Oriented Man-in-The-Middle Attack in Kubernetes](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10021881&tag=1)
 - [Securing Kubernetes Services Exposed To Public Networks From Cyber Attacks](https://academicworks.cuny.edu/cgi/viewcontent.cgi?article=2178&context=ny_pubs)
 - [Learning State Machines to Monitor and Detect Anomalies on a Kubernetes Cluster](https://dl.acm.org/doi/abs/10.1145/3538969.3543810)
-- 
+- [Attacking and Defending Kubernetes](https://hackmd.io/5zU09Z4iTNOd8zW9QNLRDQ): 介紹 k8s 並實際做滲透測試實驗、使用開源工具完成最佳安全實踐
 
