@@ -2,7 +2,7 @@
 - [Zero Trust: Applications, Challenges, and Opportunities](https://hackmd.io/@okii77/SysAMBE90)這篇文章適合作為入門零信任的開端，文章並沒有艱深的技術內容，而是專注在說明零信任的優勢與趨勢。
 - [FedBayes: A Zero-Trust Federated Learning Aggregation to Defend Against Adversarial Attacks](https://hackmd.io/@okii77/rJrEKt9hC) FedBayes 是一種簡單的聚合技術，能夠在仍然從良性客戶端學習的同時，保護全球模型免受對抗性攻擊。
 - [Federated learning in cloud-edge collaborative architecture: key technologies, applications and challenges](https://hackmd.io/@okii77/S17M3i93A) 介紹了傳統與新興 FL 模型，並總結了在雲邊協作架構中部署聯邦學習的關鍵技術、應用和挑戰，為初入雲端與聯邦學習領域者整理充足的背景知識，並給予了很多思考方向。
-- [kubeFlower: A privacy-preserving framework for Kubernetes-based federated learning in cloud–edge environments](https://hackmd.io/or52JxS1Qa66d9S4RHPwqg?both) 實際以 K8s 打造聯邦學習環境，其中著重在安全隱私層面進行說明與實驗
+- [kubeFlower: A privacy-preserving framework for Kubernetes-based federated learning in cloud–edge environments]([https://hackmd.io/or52JxS1Qa66d9S4RHPwqg?both](https://hackmd.io/@okii77/Skmsx05nR)) 實際以 K8s 打造聯邦學習環境，其中著重在安全隱私層面進行說明與實驗
 - [Flexible zero trust architecture for the cybersecurity of industrial IoT infrastructures](https://hackmd.io/@okii77/BJyk0-Zkyg): 利用軟體定義網路實現微分段的零信任架構
 
 ## Other Papers
