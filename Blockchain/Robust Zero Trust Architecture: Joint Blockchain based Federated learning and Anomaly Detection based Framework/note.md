@@ -69,7 +69,7 @@ anomaly detection)，並利用聚類技術(utilizes clustering techniques)（如
 使用區塊鏈協議在節點之間共享局部聚類信息。如果區塊鏈協議不可行，則使用鄰近節點之間的點對點通信，以確保局部聚類信息在整個網絡中分發。從每個節點的局部聚類信息中計算全局聚類，並從這些全局聚類中識別全局異常。這一步驟聚合來自所有節點的數據，以提供網絡行為的綜合視圖。
 
 
-```python=
+```py
 # Algorithm 2: Clustering-Based Anomaly and Trust Computation
 
 # 1. Initialization
