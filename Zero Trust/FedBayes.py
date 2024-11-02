@@ -15,7 +15,8 @@ function FedBayes(Cw, Gw):
 
         for client in Cw:  # 遍歷每個客戶端
             # 計算客戶端權重的偏差機率
-            P_n = 1 - (100 * P(client | layer))
+            # P(client | layer) 表示給定全域權重的情況下，觀察到該客戶端權重的累積機率。如果客戶端權重與全域權重相似，則 P(Cw|Gw) 的結果越接近0
+            P_n = 1 - (100 * P(client | layer)) # *100 是為了放大偏離值
             
             # 將調整後的權重加入當前層的權重列表
             adjusted_weight = client * P_n
