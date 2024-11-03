@@ -27,9 +27,7 @@ $$\begin{align*} T(u, v, t) & = \alpha T(u, v, t-1) + (1-\alpha) \\ & \quad \lef
 作者為每個節點描述了一個加密識別函數，使用哈希鏈和隨機數值來保證安全性並防止重放攻擊，具體表述如下：
 
 
-$
-\begin{align*} \text {ID}_{u} & = \text {hash}(pub_{u} \| nonce_{u}) \tag {5}\\ nonce_{u}(t+1) & = \text {hash}(nonce_{u}(t) \| time(t)). \tag {6}\end{align*}
-$
+$$\begin{align*} \text {ID}_{u} & = \text {hash}(pub_{u} \| nonce_{u}) \tag {5}\\ nonce_{u}(t+1) & = \text {hash}(nonce_{u}(t) \| time(t)). \tag {6}\end{align*}$$
 
 > $nonce_u(t)$ 在每個時間單位更新，以確保身份對潛在的加密攻擊保持安全。
 
