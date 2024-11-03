@@ -1,8 +1,7 @@
 # 文章閱讀: Securing Health Data on the Blockchain: A Differential Privacy and Federated Learning Framework
 
-- 原文: https://arxiv.org/abs/2405.11580
-- 關鍵字: smart cities; cyber security; Internet of Things; cyber-physical systems; zero-trust; ABAC;
-blockchain; IPFS
+- 原文: https://www.researchgate.net/publication/368591981_A_Blockchain-Inspired_Attribute-Based_Zero-Trust_Access_Control_Model_for_IoT
+- 時間: 2023/2
 
 # Background
 
