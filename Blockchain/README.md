@@ -1,3 +1,7 @@
+# 論文簡介
+- [A Blockchain-Inspired Attribute-Based Zero-Trust Access Control Model for IoT](https://hackmd.io/@okii77/BJUfj2Ebke) 作者提出結合區塊鏈、ABAC 的零信任架構以應用於物聯網。裡面詳細說明了政策的制定方法和原因，並說明不同元件之間如何溝通與運作以實現零信任
+
+
 # 使用 k8s 實現區塊鏈
 
 區塊鏈去中心化基礎
