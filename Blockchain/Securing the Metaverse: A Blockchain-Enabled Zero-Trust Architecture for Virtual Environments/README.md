@@ -9,9 +9,7 @@
 
 ## 圖論應用
 元宇宙被建模為一個時間圖，其中每個節點和邊包含隨時間演變的信任參數：
-$
-\begin{equation*} G(t) = (V, E(t)), \tag {1}\end{equation*}
-$
+$\begin{equation*} G(t) = (V, E(t)), \tag {1}\end{equation*}$
 
 - 𝑉: 在時間 t 的頂點集合
 - 𝐸(𝑡):代表在時間 t 的邊集合
