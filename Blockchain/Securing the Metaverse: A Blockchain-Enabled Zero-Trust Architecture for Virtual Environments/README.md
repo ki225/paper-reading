@@ -18,8 +18,7 @@ $$\begin{equation*} G(t) = (V, E(t)), \tag {1}\end{equation*}$$
 - 每條邊  $(u, v) \in E$ 具有關聯的權重  $w_{uv}(t)$ ，代表隨著互動事件和區塊鏈交易更新的信任水平。
 
 每次互動的信任更新機制如下：
-$\begin{align*} T(u, v, t) & = \alpha T(u, v, t-1) + (1-\alpha) \\ & \quad \left [{{ \beta B(u, v, t) + (1-\beta) hist(u, v) }}\right ], \tag {2}\\ B(u, v, t) & = \gamma C(u, v, t) + (1-\gamma) D(u, v, t), \tag {3}\\ C(u, v, t) & = \sum _{k=1}^{K} \delta _{k} \cdot \text {hash}(trans_{uvk}), \tag {4}\end{align*}
-$
+$$\begin{align*} T(u, v, t) & = \alpha T(u, v, t-1) + (1-\alpha) \\ & \quad \left [{{ \beta B(u, v, t) + (1-\beta) hist(u, v) }}\right ], \tag {2}\\ B(u, v, t) & = \gamma C(u, v, t) + (1-\gamma) D(u, v, t), \tag {3}\\ C(u, v, t) & = \sum _{k=1}^{K} \delta _{k} \cdot \text {hash}(trans_{uvk}), \tag {4}\end{align*}$$
 
 > 在公式(4)，$\text{trans}_{uvk}$ 是節點 u 和 v 之間的第 k  條區塊鏈交易，$\delta_k$ 代表一個衰減因子，用以減少舊有實踐的影響。
 
