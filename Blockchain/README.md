@@ -1,6 +1,9 @@
-# 論文簡介
-- [A Blockchain-Inspired Attribute-Based Zero-Trust Access Control Model for IoT](https://hackmd.io/@okii77/BJUfj2Ebke) 作者提出結合區塊鏈、ABAC 的零信任架構以應用於物聯網。裡面詳細說明了政策的制定方法和原因，並說明不同元件之間如何溝通與運作以實現零信任
 
+
+# 論文簡介
+- [A Blockchain-Inspired Attribute-Based Zero-Trust Access Control Model for IoT](https://hackmd.io/@okii77/BJUfj2Ebke) 作者提出結合區塊鏈、ABAC 的零信任架構以應用於物聯網，透過此框架解決用戶隱私、設備身份驗證和授權等問題，並提供了一個完全安全的設備對設備通信機制。裡面詳細說明了政策的制定方法和原因，並說明不同零信任與區塊鏈元件之間如何溝通與運作以實現零信任。
+- [Securing the Metaverse: A Blockchain-Enabled Zero-Trust Architecture for Virtual Environments](https://hackmd.io/@okii77/Sk0utrm-Jg): 作者提出的模型整合了圖論、密碼學技術和機器學習算法作為零信任的架構。作者在論文內詳細說明了每個演算法的設計與證明，其中演算法包括動態信任分數更新機制、訪問控制的智能合約執行、身份的加密驗證等等。透過區塊鏈與零信任的結合，使用區塊鏈技術去中心化身份檢查和交易記錄，提高了安全性，減少篡改風險。
+- [Securing Health Data on the Blockchain: A Differential Privacy and Federated Learning Framework](https://hackmd.io/@okii77/rkwjs3NZkl): 作者詳細說明了差分隱私和聯邦學習的數學式子，並實作+實驗了加入差分隱私的區塊鏈聯邦學習，
 
 # 使用 k8s 實現區塊鏈
 
