@@ -9,17 +9,17 @@
 
 ## 圖論應用
 元宇宙被建模為一個時間圖，其中每個節點和邊包含隨時間演變的信任參數：
-$$
+$
 \begin{equation*} G(t) = (V, E(t)), \tag {1}\end{equation*}
-$$
+$
 
 - 𝑉: 在時間 t 的頂點集合
 - 𝐸(𝑡):代表在時間 t 的邊集合
 - 每條邊  $(u, v) \in E$ 具有關聯的權重  $w_{uv}(t)$ ，代表隨著互動事件和區塊鏈交易更新的信任水平。
 
 每次互動的信任更新機制如下：
-$$\begin{align*} T(u, v, t) & = \alpha T(u, v, t-1) + (1-\alpha) \\ & \quad \left [{{ \beta B(u, v, t) + (1-\beta) hist(u, v) }}\right ], \tag {2}\\ B(u, v, t) & = \gamma C(u, v, t) + (1-\gamma) D(u, v, t), \tag {3}\\ C(u, v, t) & = \sum _{k=1}^{K} \delta _{k} \cdot \text {hash}(trans_{uvk}), \tag {4}\end{align*}
-$$
+$\begin{align*} T(u, v, t) & = \alpha T(u, v, t-1) + (1-\alpha) \\ & \quad \left [{{ \beta B(u, v, t) + (1-\beta) hist(u, v) }}\right ], \tag {2}\\ B(u, v, t) & = \gamma C(u, v, t) + (1-\gamma) D(u, v, t), \tag {3}\\ C(u, v, t) & = \sum _{k=1}^{K} \delta _{k} \cdot \text {hash}(trans_{uvk}), \tag {4}\end{align*}
+$
 
 > 在公式(4)，$\text{trans}_{uvk}$ 是節點 u 和 v 之間的第 k  條區塊鏈交易，$\delta_k$ 代表一個衰減因子，用以減少舊有實踐的影響。
 
@@ -27,26 +27,26 @@ $$
 作者為每個節點描述了一個加密識別函數，使用哈希鏈和隨機數值來保證安全性並防止重放攻擊，具體表述如下：
 
 
-$$
+$
 \begin{align*} \text {ID}_{u} & = \text {hash}(pub_{u} \| nonce_{u}) \tag {5}\\ nonce_{u}(t+1) & = \text {hash}(nonce_{u}(t) \| time(t)). \tag {6}\end{align*}
-$$
+$
 
 > $nonce_u(t)$ 在每個時間單位更新，以確保身份對潛在的加密攻擊保持安全。
 
 ## 定義信任度量(Trust Metrics)
 作者使用一組微分方程來定義信任發展的動態，顯示信任度量(trust measures)如何根據直接和觀察到的互動隨時間演變：
-$$
+$
 \begin{align*} \frac {dS(u,t)}{dt} & = \lambda \sum _{v \in N(u)} w(u,v,t) \cdot (S(v,t) - S(u,t)), \tag {7}\\ w(u,v,t+1) & = \xi \cdot w(u,v,t) + \eta \cdot \Delta T(u,v,t). \tag {8}\end{align*}
-$$
+$
 
 > 在方程8中，參數 $\xi$ 和 $\eta$ 定義了基於新信任評估的權重變化，$\Delta T(u, v, t)$ 則用來表示這一變化，$\lambda$ 作為系統穩定性的穩定器。
 
 ## 區塊鏈實作
 區塊鏈實施使用智能合約(smart contracts)根據動態更新的信任分數來強化安全政策：
 
-$$
+$
 \begin{align*} \text {SmartContract}(u, v) & = \begin{cases} \displaystyle \text {allow} & \text {if}~ S(u,t) \geq \theta \\ \displaystyle \text {deny} & \text {otherwise}, \end{cases} \tag {9}\\ \theta (t+1) & = \theta (t) + \mu \cdot (S_{avg}(t) - \theta (t)). \tag {10}\end{align*}
-$$
+$
 
 > 方程10 根據系統的平均信任分數 $S_{avg}(t)$ 動態調整閾值 $\theta$，其中 $\mu$ 為適應率。
 
