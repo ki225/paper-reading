@@ -4,6 +4,11 @@
 - [A Blockchain-Inspired Attribute-Based Zero-Trust Access Control Model for IoT](https://hackmd.io/@okii77/BJUfj2Ebke) 作者提出結合區塊鏈、ABAC 的零信任架構以應用於物聯網，透過此框架解決用戶隱私、設備身份驗證和授權等問題，並提供了一個完全安全的設備對設備通信機制。裡面詳細說明了政策的制定方法和原因，並說明不同零信任與區塊鏈元件之間如何溝通與運作以實現零信任。
 - [Securing the Metaverse: A Blockchain-Enabled Zero-Trust Architecture for Virtual Environments](https://hackmd.io/@okii77/Sk0utrm-Jg): 作者提出的模型整合了圖論、密碼學技術和機器學習算法作為零信任的架構。作者在論文內詳細說明了每個演算法的設計與證明，其中演算法包括動態信任分數更新機制、訪問控制的智能合約執行、身份的加密驗證等等。透過區塊鏈與零信任的結合，使用區塊鏈技術去中心化身份檢查和交易記錄，提高了安全性，減少篡改風險。
 - [Securing Health Data on the Blockchain: A Differential Privacy and Federated Learning Framework](https://hackmd.io/@okii77/rkwjs3NZkl): 作者詳細說明了差分隱私和聯邦學習的數學式子，並實作+實驗了加入差分隱私的區塊鏈聯邦學習，
+- [Blockchain-Enabled Federated Learning: A Reference Architecture Design, Implementation, and Verification](https://hackmd.io/@okii77/rJk89W7Wkl): 作者說明了區塊鏈可以增強聯邦學習，但沒有進一步提供演算法或證明，不過有說明六個階段的詳細工作流程，以及智能合約(用來監控和管理所有過程)、DID、自動獎勵機制等的重要性。
+- [FLoBC: A Decentralized Blockchain-Based Federated Learning Framework](https://hackmd.io/@okii77/SyN2EH7Wkg): 說明藉由引入驗證節點來分擔礦工(PoW)的驗證責任，透過 Exonum 區塊鏈、驗證節點、節點同步技術與拜占庭容錯（pBFT）共識算法可以達到輕量共識(計算消耗資源少)，此外作者也說明了驗證者內部的工作流程、系統之間是如何溝通，以及他們取得最佳模型是透過找出訓練者與驗證者的劃分中存在一個準最佳平衡。
+  - https://github.com/Oschart/FLoBC  
+- [Robust Zero Trust Architecture: Joint Blockchain based Federated learning and Anomaly Detection based Framework](https://hackmd.io/@okii77/S1434g7Zye): 作者設計出演算法以提供可靠的信任計算、動態上下文適應，並說明了如此的的方法可以帶來哪些優勢。
+- [A Detailed Review on Blockchain-Enabled Deep Learning on Kubernetes for Disease Prediction](https://hackmd.io/@okii77/HkKcveQZ1l):  沒有實際操作，簡單說明區塊鏈在醫療模型訓練上的可能性
 
 # 使用 k8s 實現區塊鏈
 
