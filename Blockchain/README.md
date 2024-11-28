@@ -9,6 +9,8 @@
   - https://github.com/Oschart/FLoBC  
 - [Robust Zero Trust Architecture: Joint Blockchain based Federated learning and Anomaly Detection based Framework](https://hackmd.io/@okii77/S1434g7Zye): 作者設計出演算法以提供可靠的信任計算、動態上下文適應，並說明了如此的的方法可以帶來哪些優勢。
 - [A Detailed Review on Blockchain-Enabled Deep Learning on Kubernetes for Disease Prediction](https://hackmd.io/@okii77/HkKcveQZ1l):  沒有實際操作，簡單說明區塊鏈在醫療模型訓練上的可能性
+- [Improved Scheme of Practical Byzantine Fault Tolerance Algorithm based on Voting Mechanism](https://hackmd.io/@okii77/SJi_3J871x): 優化了 PBFT 演算法，使系統中相對誠實的節點形成共識部分，剩餘節點則成為副本節點。在保證演算法容錯能力的同時，整體通信開銷得以降低
+
 
 # 使用 k8s 實現區塊鏈
 
