@@ -12,6 +12,7 @@
 - [Improved Scheme of Practical Byzantine Fault Tolerance Algorithm based on Voting Mechanism](https://hackmd.io/@okii77/SJi_3J871x): 優化了 PBFT 演算法，使系統中相對誠實的節點形成共識部分，剩餘節點則成為副本節點。在保證演算法容錯能力的同時，整體通信開銷得以降低
 - [Efficient Byzantine Consensus Mechanism Based on Reputation inIoT Blockchain](https://hackmd.io/@okii77/Hy_CLbLmJx): EBRC (基於信譽的高效拜占庭共識機制) 旨在解決現有物聯網區塊鏈應用中可擴展性差和開銷高的問題。EBRC 通過基於信譽的節點選舉、動態節點加入和退出協議以及優化的共識流程，實現了高共識效率、低網路開銷和高可擴展性
 - [A hierarchical blockchain-enabled distributed federated learning system with model-contribution based rewarding](https://hackmd.io/@okii77/BJNO0hU7yl): 提出了一種包含公共區塊鏈層和聯盟區塊鏈層的 HBDFL 系統，為 DFL 問題提供了一個通用的框架，並設計了 MCRM、PoETA、DRTM 和 ADTM 機制，分別解決了 DFL 中的激勵、安全、效率和準確性問題。
+- [A Secure and Fair Federated Learning Framework Based on Consensus Incentive Mechanism](https://hackmd.io/@okii77/r1edSCUm1g): FedCFB 通過提取每個客戶端模型的特徵，並利用聚類算法對不同類型的客戶端模型進行分組，從而識別出表現異常的惡意客戶端。並利用 MD5 算法計算模型的雜湊值、將其和簽名信息儲存在區塊鏈上，確保模型的完整性，防止模型在傳輸和儲存過程中被篡改。 借鑒經濟學中的邊際效益遞減原則和帕累托原則，設計了一種分段式的獎勵分配机制。
 
 
 # 使用 k8s 實現區塊鏈
